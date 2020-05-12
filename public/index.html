@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>Playlist Metal</title>
+    <style>
+      body {
+        background-color: #000;
+        color:#fff;
+        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+      }
+
+      .carousel__control {
+        background-color: green !important;
+      }
+
+      .carousel {
+        height:90vh;
+      }
+
+      header {
+        color: #235515;
+        text-transform: uppercase;
+        height:6vh;
+        padding: 1vh 0 0 0;
+        text-align: center;
+        font-weight: bold;
+        font-size:1.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <header>\ Playlist:Metal /</header>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
